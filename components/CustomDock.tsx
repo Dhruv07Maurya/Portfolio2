@@ -64,36 +64,31 @@ const Icons = {
 };
 
 const DATA = {
-  navbar: [
-    { href: "#", icon: HomeIcon, label: "Home" },
-    { href: "https://blog.yatharthverma.dev", icon: PencilIcon, label: "Blog" },
-  ],
+  // navbar: [
+  //   { href: "#", icon: HomeIcon, label: "Home" },
+  //   { href: "", icon: PencilIcon, label: "Blog" },
+  // ],
   contact: {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/yatharth1706",
+        url: "https://github.com/Dhruv07Maurya",
         icon: Icons.github,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/yatharth-verma-938924169/",
+        url: "https://www.linkedin.com/in/dhruv-m-6a95102a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap",
         icon: Icons.linkedin,
       },
       Twitter: {
         name: "X",
-        url: "https://x.com/yatharth170699",
+        url: "https://x.com/GeGeDhruv?t=-lWugzgf5HXSt6ldezkS1w&s=08",
         icon: Icons.x,
       },
       Email: {
         name: "Send Email",
-        url: "mailto:yatharthverma070@gmail.com",
+        url: "2022.dhruv.maurya@ves.ac.in",
         icon: Icons.email,
-      },
-      Youtube: {
-        name: "YouTube",
-        url: "https://www.youtube.com/c/YatharthVerma",
-        icon: Icons.youtube,
       },
     },
   },
@@ -116,8 +111,8 @@ export function CustomDock() {
     <div
       className={
         !isMobile
-          ? "fixed left-40 top-0 bottom-0 w-24 flex items-center"
-          : "fixed bottom-4 left-1/2 transform -translate-x-1/2 flex items-center"
+          ? "fixed left-40 top-0 bottom-0 w-24 z-10 flex items-center"
+          : "fixed bottom-4 left-1/2 transform -translate-x-1/2 flex items-center z-10b "
       }
     >
       <TooltipProvider>
@@ -125,7 +120,7 @@ export function CustomDock() {
           direction="middle"
           orientation={isMobile ? "horizontal" : "vertical"}
         >
-          {DATA.navbar.map((item) => (
+          {/* {DATA.navbar.map((item) => (
             <DockIcon key={item.label}>
               <Tooltip>
                 <TooltipTrigger asChild>
@@ -144,7 +139,7 @@ export function CustomDock() {
                 </TooltipContent>
               </Tooltip>
             </DockIcon>
-          ))}
+          ))} */}
           <Separator orientation={!isMobile ? "horizontal" : "vertical"} />
           {Object.entries(DATA.contact.social).map(([name, social]) => (
             <DockIcon key={name}>

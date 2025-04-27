@@ -13,10 +13,9 @@ const skillsData = [
   "Node.js",
   "Express",
   "MongoDB",
-  "PostgreSQL",
+  "LangChain",
   "MySQL",
-  "Docker",
-  "AWS",
+  "LangGraph",
   "Python",
   "FastAPI",
   "RESTful APIs",
@@ -30,7 +29,7 @@ function Skills() {
         {skillsData.map((skill, index) => (
           <span
             key={index}
-            className="bg-gray-500 text-gray-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
+            className="bg-gray-600 text-gray-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
           >
             {skill}
           </span>

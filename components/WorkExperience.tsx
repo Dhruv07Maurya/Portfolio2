@@ -12,47 +12,32 @@ interface WorkExperienceItem {
 
 const workExperienceData: WorkExperienceItem[] = [
   {
-    startDate: "August 2024",
+    startDate: "July 2024",
     endDate: "Present",
-    companyName: "Topo",
-    jobTitle: "Senior Software Engineer",
+    companyName: "Quest-It",
+    jobTitle: "Senior Graphic Officer",
     description: [
-      "Building AI SDRs and training them to help sales teams close deals faster.",
+      "Designing impactful visual content such as speaker presentations, pamphlets, carousels, marketing banners etc using tools like Canva, ensuring audience engagement.",
     ],
   },
   {
-    startDate: "December 2023",
-    endDate: "August 2024",
-    companyName: "Artisan AI",
-    jobTitle: "Senior Software Engineer",
+    startDate: "September 2024",
+    endDate: "Present",
+    companyName: "Quest-It",
+    jobTitle: "Tech Speaker",
     description: [
-      "Spearheaded the integration of multiple CRMs including HubSpot and Salesforce into the platform, enhancing lead management efficiency.",
-      "Achieved a remarkable 99% improvement in email deliverability through meticulous optimization strategies.",
-      "Implemented advanced techniques to enhance email quality and refine email filtering mechanisms, resulting in a more streamlined communication process.",
-      "Developed comprehensive analytics infrastructure, enabling real-time monitoring and analysis of all lead and email-related activities within the platform.",
+      "Technical speaker specializing in MERN stack,Gen-AI, conducted multiple sessions for junior developers, led live project demonstrations, and introduced a tech council to foster peer learning and collaboration within the college",
     ],
   },
   {
-    startDate: "June 2023",
-    endDate: "December 2023",
-    companyName: "LeadSquared",
-    jobTitle: "Senior Software Engineer",
+    startDate: "January 2023",
+    endDate: "Present",
+    companyName: "Freelance",
+    jobTitle: "Full-Stack Developer",
     description: [
-      "Automated release pipeline that helps faster releases and 100% efficiency.",
-      "Automated Region Setup Infra for LeadSquared to create all its infra in new region on requirement basis. Automating it via Terraform, AWS, RDS, Powershell scripts.",
-    ],
+      "Delivered end-to-end web solutions for multiple clients across industries including Presonal Projects, education, etc using the MERN stack.",]
   },
-  {
-    startDate: "June 2021",
-    endDate: "June 2023",
-    companyName: "LeadSquared",
-    jobTitle: "Software Engineer",
-    description: [
-      "Part of DevOps Portal team which helps in automating infra management of LeadSquared",
-      "Automated RDS Cluster upgrade / downgrade activity with very less downtime around 1-10 seconds in production",
-      "Devised notification system for the platform supporting both web and email notifications on based of certain actions custom selected by user",
-    ],
-  },
+  
 ];
 
 const WorkExperience: React.FC = () => {

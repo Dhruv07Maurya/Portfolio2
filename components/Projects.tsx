@@ -1,64 +1,68 @@
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
+import { Cover } from "@/components/ui/cover";
 
 const projectsData = [
   {
-    title: "FormVibe",
+    title: "Kom-Ai",
     description:
-      "FormVibe is a platform that allows users to create and share forms with their friends.",
-    link: "https://form-vibe.vercel.app/",
-    code: "https://github.com/yatharth1706/FormVibe",
-    previewVideo: "/videos/FormVibeProjectPreview.mp4",
+      "This 3D AI chat bot is designed for real-world interaction, delivering natural conversations in augmented environments. It responds strictly based on its built-in knowledge base, ensuring accurate, consistent, and domain-specific answers. ",
+    link: "https://github.com/Dhruv07Maurya/kom-ai",
+    code: "https://github.com/Dhruv07Maurya/kom-ai",
+    previewVideo: "/videos/Kom-ai_vdo.mp4",
     technologies: [
-      "Next.js",
+      "LangChain",
+      "Rhubarb lipsync",
+      "Eleven Labs",
+      "Three.js",
+      "Mixamo Animations",
       "React",
-      "Appwrite",
-      "TypeScript",
-      "Tailwind CSS",
     ],
   },
   {
-    title: "EmojiGit CLI Tool",
+    title: "Tagzeee",
     description:
-      "EmojiGit is a CLI tool that allows you to add emojis to your git commits.",
-    link: "https://github.com/yatharth1706/EmojiGit",
-    code: "https://github.com/yatharth1706/EmojiGit",
-    previewVideo: "/videos/EmojiGitPreview.mp4",
-    technologies: ["JavaScript", "Node.js", "Git", "Emoji", "Meow", "Inquirer"],
+      "This IoT-based solution streamlines in-store shopping by allowing users to scan QR and RFID tags on products for instant self-checkout, eliminating long queues. As customers exit, the system automatically verifies scanned and unscanned items, preventing theft and ensuring security. ",
+    link: "https://github.com/Dhruv07Maurya/RFID-SERVER-GUI",
+    code: "https://github.com/Dhruv07Maurya/RFID-SERVER-GUI",
+    previewVideo: "/videos/rfid.mp4",
+    technologies: ["MongoDB",
+      "Express",
+      "IOT",
+      "Arduino Uno",
+      "RFID Tags",
+      "RFID Reader Module"],
   },
   {
-    title: "CloudSpace",
+    title: "AskDB",
     description:
-      "CloudSpace is a platform that allows users to create and share spaces with their friends.",
-    link: "https://cloud-space.vercel.app/",
-    code: "https://github.com/yatharth1706/Cloud-Space",
+      "An AI-powered assistant that turns natural language into MongoDB queries using LangChain. Users can ask questions in plain English, and the agent queries the database and returns results—no manual query writing needed. Fast, intuitive, and built for seamless data access | It removes the need for technical users to write complex queries manually",
+    link: "https://github.com/Dhruv07Maurya/Agentics_pratice/blob/main/smart_atlas_agent.py",
+    code: "https://github.com/Dhruv07Maurya/Agentics_pratice/blob/main/smart_atlas_agent.py",
     previewVideo: "/videos/CloudSpacePreview.mp4",
     technologies: [
-      "Next.js",
-      "React",
-      "MongoDB",
-      "Express",
-      "Node.js",
-      "TypeScript",
-      "Tailwind CSS",
+      "MongoDB Atlas",
+      "LangChain",
+      "Groq",
+      "FAISS",
     ],
   },
   {
-    title: "BlogBuddy",
+    title: "SuiMon (*work in progress)",
     description:
-      "BlogBuddy is a platform that allows users to create and share blogs with their friends.",
-    link: "https://blog-buddy-seven.vercel.app/",
-    code: "https://github.com/yatharth1706/BlogBuddy",
-    previewVideo: "/videos/BlogBuddyPreview.mp4",
+      "The SuiMon is a playful, Pokémon-inspired payment wallet built on the Sui blockchain. This dApp merges the Degen culture of viral pets (inspired by Pokémon creatures) with the core functionalities of a payment infrastructure, offering users a unique, engaging, and gamified on-chain experience. ",
+    link: "/",
+    code: "/",
+    previewVideo: "/videos/suimoan.mp4",
     technologies: [
-      "Next.js",
-      "React",
-      "MongoDB",
-      "Express",
-      "Node.js",
-      "TypeScript",
-      "Tailwind CSS",
+      "Sui Move",
+      "@mysten / sui.js",
+      "@mysten / wallet-adapter",,
+      "IPFS / Pinata",
+      "Sui CLI",
+      "Su Devnet/Faucet/Explorer",
+      "Sui Wallet",
     ],
   },
 ];
@@ -66,7 +70,11 @@ const projectsData = [
 function Projects() {
   return (
     <div className="flex flex-col gap-4 w-full">
-      <h1 className="text-2xl font-bold">Projects</h1>
+       <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+       <Cover>My Projects</Cover>
+      </h1>
+      <center className="text-black dark:text-gray-400 text-xl"> <span className="text-2xl text-black dark:text-gray-300">"Dream it. Code it. Ship it."</span> <br /> From building simple websites to developing complex AI applications, I've worked on a wide range of projects that challenged and inspired me.</center>
+      <h1 className="text-2xl mt-2 mb-1 text-red-500 dark:text-red-200 font-bold">私のプロジェクトを探索する</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projectsData.map((project, index) => (
           <div

@@ -11,19 +11,13 @@ interface EducationItem {
 
 const EducationData: EducationItem[] = [
   {
-    startDate: "August 2017",
-    endDate: "May 2021",
-    collegeName: "Lovely Professional University",
-    courseName: "BTech. in Computer Science and Engineering",
-    address: "Phagwara, Punjab",
+    startDate: "November 2022",
+    endDate: "2026",
+    collegeName: "Vivekanand Education Society's Institute of Technology",
+    courseName: "B.E. in Information Technology",
+    address: "Mumbai, Maharashtra",
   },
-  {
-    startDate: "2015",
-    endDate: "2017",
-    schoolName: "Snower Valley Senior Secondary School",
-    address: "Bajaura, Himachal Pradesh",
-    courseName: "Non Medical",
-  },
+ 
 ];
 
 const Education: React.FC = () => {
