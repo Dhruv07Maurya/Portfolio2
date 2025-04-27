@@ -73,7 +73,7 @@ function Projects() {
        <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
        <Cover>My Projects</Cover>
       </h1>
-      <center className="text-black dark:text-gray-400 text-xl"> <span className="text-2xl text-black dark:text-gray-300">"Dream it. Code it. Ship it."</span> <br /> From building simple websites to developing complex AI applications, I've worked on a wide range of projects that challenged and inspired me.</center>
+      <center className="text-black dark:text-gray-400 text-xl"> <span className="text-2xl text-black dark:text-gray-300">&quot;Dream it. Code it. Ship it.&quot;</span> <br /> From building simple websites to developing complex AI applications, I have worked on a wide range of projects that challenged and inspired me.</center>
       <h1 className="text-2xl mt-2 mb-1 text-red-500 dark:text-red-200 font-bold">私のプロジェクトを探索する</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projectsData.map((project, index) => (

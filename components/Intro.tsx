@@ -5,7 +5,7 @@ import { ContainerTextFlip } from "@/components/ui/container-text-flip";
 
 export default function Intro() {
   const words =
-    "I'm a Third Year B.Tech IT student at VESIT Mumbai, a continuous learner and a problem solver. Passionate about AI and web development, I've competed in multiple hackathons and won prizes.";
+    "I&apos;m a Third Year B.Tech IT student at VESIT Mumbai, a continuous learner and a problem solver. Passionate about AI and web development, I've competed in multiple hackathons and won prizes.";
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
