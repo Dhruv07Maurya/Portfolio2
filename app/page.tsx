@@ -6,6 +6,7 @@ import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
+import Hobbies from "@/components/Hobbies"; 
 
 const Meteors = dynamic(() => import("@/components/magicui/meteors"), {
   ssr: false,
@@ -22,6 +23,7 @@ export default function Home() {
       <Education />
       <Skills />
       <Projects />
+      <Hobbies />
       <ContactMe />
       <Meteors number={20} />
     </main>

@@ -112,7 +112,7 @@ export function CustomDock() {
       className={
         !isMobile
           ? "fixed left-40 top-0 bottom-0 w-24 z-10 flex items-center"
-          : "fixed bottom-4 left-1/2 transform -translate-x-1/2 flex items-center z-10b "
+          : "fixed bottom-4 left-1/2 transform -translate-x-1/2 flex items-center z-50 "
       }
     >
       <TooltipProvider>

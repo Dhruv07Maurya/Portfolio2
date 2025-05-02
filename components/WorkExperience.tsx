@@ -15,7 +15,7 @@ const workExperienceData: WorkExperienceItem[] = [
     startDate: "July 2024",
     endDate: "Present",
     companyName: "Quest-It",
-    jobTitle: "Senior Graphic Officer",
+    jobTitle: "Senior Graphic Officer at",
     description: [
       "Designing impactful visual content such as speaker presentations, pamphlets, carousels, marketing banners etc using tools like Canva, ensuring audience engagement.",
     ],
@@ -24,7 +24,7 @@ const workExperienceData: WorkExperienceItem[] = [
     startDate: "September 2024",
     endDate: "Present",
     companyName: "Quest-It",
-    jobTitle: "Tech Speaker",
+    jobTitle: "Tech Speaker at",
     description: [
       "Technical speaker specializing in MERN stack,Gen-AI, conducted multiple sessions for junior developers, led live project demonstrations, and introduced a tech council to foster peer learning and collaboration within the college",
     ],
@@ -32,8 +32,8 @@ const workExperienceData: WorkExperienceItem[] = [
   {
     startDate: "January 2023",
     endDate: "Present",
-    companyName: "Freelance",
-    jobTitle: "Full-Stack Developer",
+    companyName: "",
+    jobTitle: "Freelancing",
     description: [
       "Delivered end-to-end web solutions for multiple clients across industries including Presonal Projects, education, etc using the MERN stack.",]
   },
@@ -58,7 +58,7 @@ const WorkExperience: React.FC = () => {
               {item.startDate} - {item.endDate || "Present"}
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {item.jobTitle} at {item.companyName}
+              {item.jobTitle} {item.companyName}
             </h3>
             <div className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
               <ul>

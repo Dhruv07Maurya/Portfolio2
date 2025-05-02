@@ -5,10 +5,11 @@ import { ContainerTextFlip } from "@/components/ui/container-text-flip";
 
 export default function Intro() {
   const words =
-    "I'm a Third Year B.Tech IT student at VESIT Mumbai, a continuous learner and a problem solver. Passionate about AI and web development, I've competed in multiple hackathons and won prizes.";
+    "Driven by AI and web development, I've brought ideas to life in hackathons—applying my skills to solve real-world challenges head-on.";
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden z-0">
+      {/* Background image container */}
       <div className="absolute inset-0 flex justify-end z-0">
         <div className="w-1/2 h-full relative">
           <Image
@@ -18,10 +19,9 @@ export default function Intro() {
             className="object-cover transition-opacity duration-500 opacity-80 dark:opacity-75"
             style={{
               maskImage:
-                "linear-gradient(to bottom, black 80%, transparent 100%)",
+                "linear-gradient(to bottom, black 60%, transparent 100%)",
               WebkitMaskImage:
-                "linear-gradient(to bottom, black 80%, transparent 100%)",
-              // Extra fading on all sides in dark mode
+                "linear-gradient(to bottom, black 60%, transparent 100%)",
               ...(typeof window !== "undefined" &&
               document.documentElement.classList.contains("dark")
                 ? {
@@ -36,10 +36,11 @@ export default function Intro() {
         </div>
       </div>
 
-      <div className="relative mt-[-60px] z-10 w-full h-full flex flex-col-reverse lg:flex-row gap-14 justify-between items-center px-6 lg:px-16">
+      {/* Foreground content */}
+      <div className="relative mt-[-30vh] md:mt-[-60px] z-10 w-full h-full flex flex-col-reverse lg:flex-row gap-14 justify-between items-center px-6 lg:px-16">
         <div className="flex flex-col gap-4 w-full lg:w-4/5">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
-            Hi! I'm{" "} <br />{" "}
+            Hi! I'm <br />
             <ContainerTextFlip
               words={["Engineer", "Developer", "Speaker", "Dhruv."]}
             />
