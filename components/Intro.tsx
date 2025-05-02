@@ -42,7 +42,7 @@ export default function Intro() {
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
             Hi! I'm <br />
             <ContainerTextFlip
-              words={["Engineer", "Developer", "Speaker", "Dhruv."]}
+              words={["Engineer", "Developer", "Speaker","Photographer", "Dhruv."]}
             />
           </h1>
           <p className="text-base pl-2 text-gray-800 dark:text-gray-300">
