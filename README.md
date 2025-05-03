@@ -1,4 +1,4 @@
-## My Personal Portfolio
+## My Personal Portfolio:
 
 ## Getting Started
 
