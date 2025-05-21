@@ -52,7 +52,7 @@ const projectsData = [
     title: "SuiMon (*work in progress)",
     description:
       "The SuiMon is a playful, Pokémon-inspired payment wallet built on the Sui blockchain. This dApp merges the Degen culture of viral pets (inspired by Pokémon creatures) with the core functionalities of a payment infrastructure, offering users a unique, engaging, and gamified on-chain experience. ",
-    link: "/",
+    link: "https://sui-mon.vercel.app/",
     code: "/",
     previewVideo: "/videos/suimoan.mp4",
     technologies: [
