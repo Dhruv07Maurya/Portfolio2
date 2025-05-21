@@ -8,8 +8,8 @@ const projectsData = [
     title: "Kom-Ai",
     description:
       "This 3D AI chat bot is designed for real-world interaction, delivering natural conversations in augmented environments. It responds strictly based on its built-in knowledge base, ensuring accurate, consistent, and domain-specific answers. ",
-    link: "https://github.com/Dhruv07Maurya/kom-ai",
-    code: "https://github.com/Dhruv07Maurya/kom-ai",
+    link: "https://komai.vercel.app/",
+    code: "https://github.com/Dhruv07Maurya/KomAi",
     previewVideo: "/videos/Kom-ai_vdo.mp4",
     technologies: [
       "LangChain",
