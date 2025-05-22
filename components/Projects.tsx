@@ -21,10 +21,10 @@ const projectsData = [
     ],
   },
   {
-    title: "Tagzeee",
+    title: "SnapIt",
     description:
       "This IoT-based solution streamlines in-store shopping by allowing users to scan QR and RFID tags on products for instant self-checkout, eliminating long queues. As customers exit, the system automatically verifies scanned and unscanned items, preventing theft and ensuring security. ",
-    link: "https://github.com/Dhruv07Maurya/RFID-SERVER-GUI",
+    link: "https://snap-it-n16t.onrender.com/Dash.html",
     code: "https://github.com/Dhruv07Maurya/RFID-SERVER-GUI",
     previewVideo: "/videos/rfid.mp4",
     technologies: ["MongoDB",
